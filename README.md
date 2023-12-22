@@ -26,3 +26,21 @@ go get github.com/weavel-ai/promptmodel-go
 ## Documentation
 
 You can find our full documentation [here](https://www.promptmodel.run/docs/introduction).
+
+## How to use
+
+You can test the library with `example` folder.
+
+1. Set API keys in `/example/.env` file.
+
+```python
+PROMPTMODEL_API_KEY=YOUR_API_KEY
+OPENAI_API_KEY=YOUR_API_KEY
+```
+
+2. Run the example code.
+
+```bash
+cd example
+go run example.go
+```
