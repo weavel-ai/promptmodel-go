@@ -37,7 +37,7 @@ func NewClientOptions() *ClientOptions {
 	apiKey := os.Getenv("PROMPTMODEL_API_KEY")
 	baseURL := os.Getenv("PROMPTMODEL_BACKEND_PUBLIC_URL")
 	if baseURL == "" {
-		baseURL = "https://promptmodel.up.railway.app/"
+		baseURL = "https://promptmodel.up.railway.app"
 	}
 
 	return &ClientOptions{
